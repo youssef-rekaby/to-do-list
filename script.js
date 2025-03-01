@@ -42,10 +42,14 @@ function print() {
          Return.style.marginLeft = "5px"
          completed.appendChild(Return)
          deletebutton.addEventListener('click',function(){
-            completed.removeChild(task)
-            completed.removeChild(deletebutton)
-            completed.removeChild(hrr)
-            
+            // delete it permenantly
+            // completed.removeChild(task)
+            // completed.removeChild(deletebutton)
+            // completed.removeChild(hrr)
+            completed.remove(task)
+            completed.remove(deletebutton)
+            completed.remove(Return)
+            completed.remove(hrr)
          })
          deletebutton.style.marginBottom = "10px"
          deletebutton.style.marginLeft = "5px"
