@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/sketch-3-todo-list-app-icon-template-removebg-preview.png">
+</head>
+
+<body>
+   
+        <h1>My Day</h1>
+        <div class="todos">
+            <h2 class="titletask">your tasks:</h2>
+        </div>
+        <div class="writing" id="non-blured ">
+            <hr>
+            <form action="">
+                <input type="text" id="tasks" name="task" placeholder="Enter a task" autofocus>
+                <button id="submit" onclick="print()">submit</button>
+            </form>
+        </div>
+        
+        <aside id="editboard">
+            <h2>Your Task</h2>
+        </aside>
+        <hr>
+        <div class="completed">
+            <h2>Completed Tasks:</h2>
+            <audio src="/completion-sound.mp3"></audio>
+        </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
